@@ -71,7 +71,7 @@ public class PriorityQueueExpt
     /*
             // It's always good to see what happens after you've cleared
             // out a structure.  So add a few more elements.
-            // We'll leave this test until we've worked out some kinks (Dave?)
+            // We'll leave this test until we've worked out some kinks (Dave? Ray? Mick?)
             expt.put("five");
             expt.peek();
             expt.put("six");
@@ -85,7 +85,7 @@ public class PriorityQueueExpt
      */
 
     /*
-            // An iteration test, once we've workd out some kinks
+            // An iteration test, once we've worked out some kinks
             expt.put("eight");
             expt.put("nine");
             expt.put("ten");
