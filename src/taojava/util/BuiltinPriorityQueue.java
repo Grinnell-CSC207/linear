@@ -33,7 +33,7 @@ public class BuiltinPriorityQueue<T>
    * and uses order to compare elements.
    */
   public BuiltinPriorityQueue(int capacity, Comparator<T> order)
-                                                                throws Exception
+    throws Exception
   {
     this.pq = new java.util.PriorityQueue<T>(capacity, order);
   } // BuiltinPriorityQueue(int capacity)
@@ -79,8 +79,7 @@ public class BuiltinPriorityQueue<T>
   @Override
   @SuppressWarnings({ "unchecked" })
   // Handle different forms of comparator
-    public
-    Comparator<T> comparator()
+  public Comparator<T> comparator()
   {
     return (Comparator<T>) pq.comparator();
   } // comparator()
